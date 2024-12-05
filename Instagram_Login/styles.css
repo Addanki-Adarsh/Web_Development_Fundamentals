@@ -1,0 +1,220 @@
+body {
+    background-color: #fafafa;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 350px;
+    width: 100%;
+    padding: 400px;
+}
+
+.login-box, .signup-box, .app-links {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Billabong', cursive;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+
+.input-group {
+    margin-bottom: 10px;
+    max-width: 400px;
+    padding: 20px;
+    /* border-radius: 8px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px 0; */
+    border: 1px solid white;
+    /* border-radius: 3px; */
+    background-color: white;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    margin: 0 10px;
+    color: #8e8e8e;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook-login i {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signup-box {
+    padding: 15px 0;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.app-links {
+    text-align: center;
+}
+
+.store-buttons img {
+    height: 40px;
+    margin: 5px;
+}
+
+footer {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-language {
+    margin: 10px 0;
+}
+
+.language-dropdown {
+    position: relative;
+    /* display: inline-block; */
+    display: flex;
+}
+
+.language-button {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #1c1e21;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.language-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #737373;
+}
+
